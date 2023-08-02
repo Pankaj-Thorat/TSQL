@@ -38,3 +38,8 @@ SELECT c.customer_id, c.customer_name, c.email, c.phone,
 FROM customers c
 INNER JOIN orders o ON c.customer_id = o.customer_id;
 
+select * from customers
+
+delete from customers  where customer_id = 1;
+
+
