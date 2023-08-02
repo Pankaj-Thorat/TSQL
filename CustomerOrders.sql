@@ -43,3 +43,13 @@ select * from customers
 delete from customers  where customer_id = 1;
 
 
+-- UC4
+INSERT INTO customers (customer_id, customer_name, email, phone)
+VALUES (3, 'Pankaj Thorat', 'thorat@gmail.com', '7066442244');
+
+INSERT INTO orders (order_id, customer_id, order_date, total_amount)
+VALUES (103, 4, '2023-08-01', 1350.50);
+
+
+select * from customers
+select * from Orders
